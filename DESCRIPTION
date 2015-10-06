@@ -1,0 +1,19 @@
+Package: lfa
+Title: Logistic Factor Analysis for Categorical Data
+Version: 0.99.3
+Date: 2015-10-04
+Author: Wei Hao, Minsun Song, John Storey
+Maintainer: Wei Hao <whao@princeton.edu>, John Storey
+        <jstorey@princeton.edu>
+LazyData: true
+Description: LFA is a method for a PCA analogue on Binomial data via
+        estimation of latent structure in the natural parameter.
+Imports: corpcor
+Depends: R (>= 3.2)
+Suggests: knitr, ggplot2
+VignetteBuilder: knitr
+License: GPL-3
+biocViews: SNP, DimensionReduction, PrincipalComponent
+BugReports: https://github.com/StoreyLab/lfa/issues
+URL: https://github.com/StoreyLab/lfa
+NeedsCompilation: yes
